@@ -30,3 +30,6 @@ input:-webkit-autofill:active{
 input:-webkit-autofill {
   -webkit-text-fill-color: #fff !important;
 }
+input,textarea,button,select,a {
+  -webkit-tap-highlight-color: transparent;
+}
