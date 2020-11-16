@@ -1,0 +1,26 @@
+.signup{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+.signup__content{
+    max-width: 480px;
+    margin: auto;
+}
+.bottom__heading{
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    color: #000;
+}
+@media(max-width: 480px){
+    .signup__content{
+        width: 100%;
+        padding: 20px;
+        margin-top: 30px;
+    }
+}
